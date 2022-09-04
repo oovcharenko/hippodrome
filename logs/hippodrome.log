@@ -1,0 +1,25 @@
+2022-09-12 11:11:15,593 INFO  Main: Создание Hippodrome, лошадей [7]
+2022-09-12 11:11:15,595 INFO  Main: Начало скачек. Количество участников: 7
+2022-09-12 11:11:17,622 INFO  Main: Окончание скачек. Победитель: Зефир
+2022-09-12 11:12:12,049 INFO  Main: Создание Hippodrome, лошадей [50]
+2022-09-12 11:12:12,115 INFO  Main: Horses list is empty
+2022-09-12 11:12:12,120 INFO  Main: Horses list is null
+2022-09-12 11:12:12,125 INFO  Main: Создание Hippodrome, лошадей [30]
+2022-09-12 11:12:12,129 INFO  Main: Создание Hippodrome, лошадей [3]
+2022-09-12 11:12:56,321 INFO  Main: Создание Hippodrome, лошадей [50]
+2022-09-12 11:12:56,383 ERROR Main: Horses list is empty
+2022-09-12 11:12:56,387 ERROR Main: Horses list is null
+2022-09-12 11:12:56,390 INFO  Main: Создание Hippodrome, лошадей [30]
+2022-09-12 11:12:56,394 INFO  Main: Создание Hippodrome, лошадей [3]
+2022-09-12 11:18:25,363 ERROR Main: Name is null
+2022-09-12 11:18:25,404 ERROR Main: Name is blank
+2022-09-12 11:18:25,425 ERROR Main: Name is blank
+2022-09-12 11:18:25,429 ERROR Main: Name is blank
+2022-09-12 11:18:25,434 ERROR Main: Name is blank
+2022-09-12 11:18:26,180 INFO  Main: Создание Horse, имя [name], скорость [1.0}]
+2022-09-12 11:18:26,216 INFO  Main: Создание Horse, имя [Horse1], скорость [2.7}]
+2022-09-12 11:18:26,222 INFO  Main: Создание Horse, имя [Horse1], скорость [1.0}]
+2022-09-12 11:18:26,301 ERROR Main: Speed is negative
+2022-09-12 11:18:26,310 ERROR Main: Distance is negative
+2022-09-12 11:18:26,317 INFO  Main: Создание Horse, имя [Horse1], скорость [1.0}]
+2022-09-12 11:18:26,317 INFO  Main: Создание Horse, имя [Horse1], скорость [1.0}]
