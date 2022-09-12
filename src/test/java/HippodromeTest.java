@@ -47,6 +47,7 @@ class HippodromeTest {
         for (int i = 0; i < 50; i++) {
             horses.add(mock(Horse.class));
         }
+
         new Hippodrome(horses).move();
 
         horses.stream().forEach(horse -> verify(horse).move());

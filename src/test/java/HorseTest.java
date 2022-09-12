@@ -79,7 +79,6 @@ class HorseTest {
         try (MockedStatic<Horse> mockedStatic = mockStatic(Horse.class)) {
             double speed = 3;
             double distance = 30;
-            double totalDistance = speed * distance;
             Horse horse = new Horse("фаворит", speed, distance);
             mockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(random);
 
