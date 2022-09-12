@@ -68,8 +68,24 @@ class HorseTest {
     @Test
     void moveUseGetRandom() {
         try (MockedStatic<Horse> mockedStatic = mockStatic(Horse.class)) {
-            new Horse("name", 1, 1).move();
+            new Horse("name", 3, 30).move();
             mockedStatic.verify(() -> Horse.getRandomDouble(0.2, 0.9));
+        }
+    }
+
+    @ParameterizedTest
+    @CsvSource({"0.1", "0.2", "99.9"})
+    void move(double random) {
+        try (MockedStatic<Horse> mockedStatic = mockStatic(Horse.class)) {
+            double speed = 3;
+            double distance = 30;
+            double totalDistance = speed * distance;
+            Horse horse = new Horse("фаворит", speed, distance);
+            mockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(random);
+
+            horse.move();
+
+            assertEquals(distance + speed * random, horse.getDistance());
         }
     }
 }
